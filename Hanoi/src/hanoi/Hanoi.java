@@ -11,6 +11,8 @@ public class Hanoi {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        TowersofHanoi towers = new TowersofHanoi (5);
+        towers.solve();
     }
     
 }
